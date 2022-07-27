@@ -1,5 +1,7 @@
 # neovim-dotfile
 
+My own neovim config
+
 ## Install packer.nvim
 
 > Linux Installation
@@ -59,6 +61,22 @@ Download from [the releases page](https://releases.llvm.org/download.html)
 
 Install by system's package manager
 
+- Debian or Ubuntu
+
+```shell
+
+sudo apt install clangd-14
+
+```
+
+- Arch Linux
+
+```shell
+
+sudo pacman -S clang
+
+```
+
 ### Install plugins
 
 Open neovim
@@ -70,6 +88,8 @@ Open neovim
 ```
 
 ### Install plugins of coc.nvim
+
+Open neovim
 
 ```vim
 
