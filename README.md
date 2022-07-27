@@ -21,7 +21,7 @@ git clone https://github.com/wbthomason/packer.nvim ~\AppData\Local\nvim-data\si
 
 ```
 
-## Move config files
+## Copy config files from Github
 
 > Linux Installation
 
