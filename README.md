@@ -13,7 +13,7 @@ package](https://aur.archlinux.org/packages/nvim-packer-git/).
 ```shell
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 ```
-## move config files
+## Move config files
 > Unix, Linux Installation
 ```shell
 git clone https://github.com/BrandenXia/neovim-dotfile.git ~/.config/nvim
