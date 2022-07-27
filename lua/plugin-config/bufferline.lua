@@ -1,3 +1,4 @@
+-- 打开颜色显示
 vim.opt.termguicolors = true
 require("bufferline").setup {
     options = {
