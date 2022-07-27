@@ -53,7 +53,7 @@ pip install jedi-language-server
 
 > Windows Installation
 
-Download from [The releases page](https://releases.llvm.org/download.html)
+Download from [the releases page](https://releases.llvm.org/download.html)
 
 > Linux Installation
 
