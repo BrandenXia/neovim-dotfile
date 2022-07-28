@@ -80,6 +80,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\brand\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\brand\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "C:\\Users\\brand\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dracula.nvim",

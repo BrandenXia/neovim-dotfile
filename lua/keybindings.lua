@@ -20,3 +20,18 @@ map("n", "<A-f>", ":FloatermNew --autoclose=1 pwsh<CR>", opt) -- 在当前目录
 map("n", "<leader>ff", ":Telescope find_files<CR>", opt) -- 在当前目录查找文件 space+f+f
 map("n", "<leader>fb", ":Telescope buffers<CR>", opt) -- 查找打开的标签页 space+f+b
 map("n", "<leader>fh", ":Telescope help_tags<CR>", opt) -- 查找可用指令 space+f+h
+-- Coc.nvim
+-- The function is called `t` for `termcodes`.
+local function t(str)
+    return vim.api.nvim_replace_termcodes(str, true, true, true)
+end
+-- tab键向下切换自动补全结果
+function _G.smart_tab()
+    return vim.fn.pumvisible() == 1 and t'<C-N>' or t'<Tab>'
+end
+map('i', '<Tab>', 'v:lua.smart_tab()', {expr = true, noremap = true})
+--Shift+tab键向上切换自动补全结果
+function _G.smart_stab()
+    return vim.fn.pumvisible() == 1 and t'<C-P>' or t'<S-Tab>'
+end
+map('i', '<S-Tab>', 'v:lua.smart_stab()', {expr = true, noremap = true})
