@@ -13,7 +13,7 @@ return require('packer').startup(function(use)
 		'akinsho/bufferline.nvim',
 		requires = 'kyazdani42/nvim-web-devicons'
 	}
-	-- tabline 标签栏
+	-- lualine 标签栏
 	use {
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
